@@ -1,5 +1,14 @@
 from RatingSystem import RatingSystem
 
+class Rating(RatingSystem):
+    """ Nasza implementacja systemu oceniającego"""
+    def __init__(self):
+        super().__init__()
+    def rate(self, user, movie):
+        # TODO
+        pass
+    def __str__(self):
+        return '156 145 and 155 941'
 class NaiveRating(RatingSystem):
     """
     Przykładowy system - naiwny. 
